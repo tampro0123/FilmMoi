@@ -1,0 +1,21 @@
+.movieListContainer {
+    background-color: #111111;
+}
+.movieListContainer h3 {
+    color: #fafaf6;
+}
+.listItem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 20px 30px;
+}
+.item {
+    width: 150px;
+    height: 220px;
+}
+.item img {
+    width: 100%;
+    height: 100%;
+}

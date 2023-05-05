@@ -1,0 +1,42 @@
+.banner {
+    height: 500px;
+    position: relative;
+}
+.banner-content {
+    position: absolute;
+    top: 33%;
+    left: 40px;
+    width: 40vw;
+}
+.banner-content .name {
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #030303;
+}
+.actions {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+}
+.actions button {
+    background-color: #221d22ad;
+    width: 90px;
+    height: 40px;
+    margin-right: 20px;
+    color: #fff;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.actions button:hover {
+    cursor: pointer;
+    background-color: #221d22;
+}
+.overview {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #030303;
+}

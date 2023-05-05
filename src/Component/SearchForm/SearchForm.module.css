@@ -1,0 +1,82 @@
+.searchForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #111111;
+}
+.formModal {
+    background-color: #fff;
+    width: 500px;
+    height: 200px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border-bottom: 3px solid #3fc7eb;
+}
+.searchInput {
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 21px;
+    padding: 10px 20px;
+    width: 80%;
+}
+.searchAction {
+    width: 10%;
+    text-align: center;
+    padding: 10px 14px;
+    height: 40px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+/* .searchAction:hover {
+    cursor: pointer;
+    background-color: #000000c5;
+} */
+.searchIcon {
+    width: 30px;
+    height: 30px;
+}
+.actionsForm {
+    height: 138px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+button {
+    outline: none;
+    border: none;
+    margin-right: 10px;
+    padding: 10px 20px;
+}
+.actionsReset {
+    font-size: 20px;
+    background: #fafafa00;
+    font-weight: 300;
+}
+.actionsReset:hover {
+    cursor: pointer;
+    background-color: #00bbec;
+}
+.actionsSearch {
+    font-size: 20px;
+    background: #00bbec;
+    color: #fff;
+    font-weight: 300;
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.actionsSearch:hover {
+    cursor: pointer;
+    background: #cdeaf1;
+    color: #0291b4;
+}

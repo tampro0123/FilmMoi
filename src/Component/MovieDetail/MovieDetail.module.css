@@ -1,0 +1,23 @@
+.movieDetailsContainer {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+.detailMovie {
+    width: 50%;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+.overView {
+    font-weight: 300;
+}
+.movieTrailer {
+    width: 50%;
+    padding: 10px;
+}
+.movieTrailer img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
